@@ -346,10 +346,10 @@ vercel --prod
 
 > Make sure to add all `VITE_FIREBASE_*` environment variables in your Vercel project settings under **Settings → Environment Variables**.
 
-### Deploy to Netlify
+### Deploy to Vercel
 
 1. Push your repository to GitHub
-2. Connect it in [Netlify](https://app.netlify.com/)
+2. Connect it in [Vercel](https://vercel.com/)
 3. Set **Build command:** `npm run build`
 4. Set **Publish directory:** `dist`
 5. Add all `VITE_FIREBASE_*` environment variables under **Site Settings → Environment Variables**
@@ -357,6 +357,9 @@ vercel --prod
    ```
    /*  /index.html  200
    ```
+
+Link of Real-State Project :
+[Real-State](https://real-state-gvnb.vercel.app/)
 
 ---
 
